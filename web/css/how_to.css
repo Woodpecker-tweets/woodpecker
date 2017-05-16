@@ -1,0 +1,17 @@
+.how_to_image {
+	      border: 2px solid #fff;
+	      height: 100%;
+	      width: 100%;
+	      display: flex;
+	      justify-content: center;
+}
+
+.how_to_container {
+		  margin-top: 100px;
+		  margin-bottom: 100px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 20px;
+}
