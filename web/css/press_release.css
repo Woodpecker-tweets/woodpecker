@@ -1,5 +1,6 @@
 .press_header {
-	      font-size: 75px;
+			padding-top: 100px;
+	      font-size: 74px;
 }
 
 .logo {
@@ -14,4 +15,12 @@ p {
 
 .lower {
        font-size: 12px;
+}
+
+.mastfoot {
+	padding-bottom: 0px;
+}
+
+.inner {
+	padding-bottom: 20px;
 }

@@ -1,7 +1,8 @@
 $(function (){
-    $('.btn').click(function () {
-      let freq = $('#frequency option:selected').text();
-      let keyword = $('input').val();
+    $('.btn-lg').click(function () {
+      freq = $('#frequency option:selected').text();
+      keyword = $('input').val();
+      message = 'currently tweeting' + keyword;
       if (!(keyword).match(/^[0-9a-zA-Z]+$/)) {
           alert('Input is not alphanumeric');
       }
@@ -20,6 +21,14 @@ $(function (){
 
         }
       });
-      alert(key);
+      $('.has_server').css('display', '');
+      $('.no_service').css('display', 'none');
+      $('#status').text('Currently retweeting #' + keyword + ' ' + freq.toUpperCase())
     });
+
+    $('.btn-md').click(function () {
+      $('.has_server').css('display', 'none');
+      $('.no_service').css('display', '');
+
+    })
 })
