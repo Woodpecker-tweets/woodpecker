@@ -1,0 +1,33 @@
+
+.team-container {
+	margin: 100px;
+	border: 1px solid #fff;
+	width: 100%
+	display: flex;
+	justify-content: center;
+}
+
+.team-member {
+	     padding: 20px;
+	     width: 100%;
+	     display: flex;
+	     justify-content: flex-start;
+}
+
+.team-image {
+	border: 2px solid #fff;
+	height: 150px;
+	width: 150px;
+	display: flex;
+}
+
+.team-bio {
+        margin-left: 30px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+a {
+  margin-bottom: 10px;
+}
