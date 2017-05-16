@@ -1,0 +1,7 @@
+
+
+/* light blue */
+#8CC2D0
+
+/* dark blue */
+#1A85A1
