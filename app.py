@@ -29,8 +29,6 @@ def retweet(hashtag):
         """make a simple variable rule"""
         return (top_tweets.do_retweet(hashtag))
 
-
-
 if __name__ == "__main__":
     host = getenv("HBNB_API_HOST", "0.0.0.0")
     port = getenv("HBNB_API_PORT", "5000")

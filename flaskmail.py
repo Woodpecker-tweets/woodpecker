@@ -22,12 +22,8 @@ mail=Mail(app)
 
 @app.route("/")
 def index():
-    msg = Message(
-              'Hello',
-           sender= usr,
-           recipients=
-                ['95@holbertonschool.com']
-                )
+    msg = Message('Hello', sender=usr,
+		 recipients=['95@holbertonschool.com'])
     msg.body = "This is the email body"
     mail.send(msg)
     return ("Sent")
